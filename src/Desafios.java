@@ -34,15 +34,16 @@ public class Desafios {
 
         }
         if (v == 1) {
-            System.out.println("Ele faz parte da sequencia e aparece: " + v + " vez");
+            System.out.println("Ele faz parte da sequencia Fibonacci e aparece: " + v + " vez");
         } else if (v >= 2) {
-            System.out.println("Ele faz parte da sequencia e aparece: " + v + " vezes");
+            System.out.println("Ele faz parte da sequencia Fibonacci e aparece: " + v + " vezes");
         } else {
-            System.out.println("Ele não faz parte da sequencia");
+            System.out.println("Ele não faz parte da sequencia Fibonacci");
         }
 
         // terceiro desafio
-        //Não consegui realizar o terceiro desafio.
+        // Não consegui realizar o terceiro desafio.
+
         // quarto desafio
 
         double sp = 67836.43, rj = 36678.66, mg = 29229.88, es = 27165.48, outros = 19849.53;
@@ -51,6 +52,7 @@ public class Desafios {
 
         DecimalFormat dformat = new DecimalFormat("#.00%");
 
+        System.out.println("\nAs porcentagens dos faturamentos são:");
         System.out.println("São Paulo representa " + dformat.format(spp) + " do faturamento mensal");
         System.out.println("Rio de Janeiro representa " + dformat.format(rjp) + " do faturamento mensal");
         System.out.println("Minas Gerais representa " + dformat.format(mgp) + " do faturamento mensal");
@@ -59,7 +61,7 @@ public class Desafios {
 
         // quinto desafio
         Scanner n = new Scanner(System.in);
-        System.out.printf("digite seu nome:");
+        System.out.printf("\ndigite seu nome para:");
         String nome = n.next();
         String emon = "";
 
@@ -67,7 +69,7 @@ public class Desafios {
             emon = emon + nome.charAt(i);
 
         }
-        System.out.println("seu nome ao contrario fica" + emon);
+        System.out.println("seu nome ao contrario fica: " + emon);
 
     }
 
